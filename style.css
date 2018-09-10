@@ -1,0 +1,99 @@
+#carouselExampleControls {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 70%;
+}
+
+.fas {
+  float: right;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 70%;
+}
+
+.navbar a {
+  color: #F0EAD6;
+}
+
+body {
+    background-color: #6c757d;
+}
+
+#appointment {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 600px;
+}
+
+.timetable {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 600px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.contact-details {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 300px;
+}
+
+.hans-logo {
+  margin-top: 60px;
+  width: 200px;
+}
+
+.about-links {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 300px;
+}
+
+@media (max-width: 1200px) {
+    .content {
+        flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .faq {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about {
+    flex-direction: column;
+  }
+}
